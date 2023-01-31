@@ -1321,3 +1321,7 @@ input[type="text"] {
 
 .js .animate-box {
   opacity: 0; }
+
+.portfolio img {
+  max-width: 100%;
+}
