@@ -672,23 +672,29 @@ header {
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   -moz-flex-wrap: wrap;
-  width: 100%; }
-  .services-flex .one-third {
-    width: 55%;
-    padding: 3em 2em 3em 0; }
-  .services-flex .one-forth {
-    width: 45%; }
-    .services-flex .one-forth .one-third, .services-flex .one-forth .one-forth {
-      display: inline-block; }
-      @media screen and (max-width: 768px) {
-        .services-flex .one-forth .one-third, .services-flex .one-forth .one-forth {
-          height: 400px; } }
-  .services-flex .one-third, .services-flex .one-forth {
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.services-flex .one-third {
+  width: 45%;
+  padding: 3em 2em 3em 0;
+}
+
+.services-flex .one-forth {
+  width: 45%; }
+  .services-flex .one-forth .one-third, .services-flex .one-forth .one-forth {
     display: inline-block; }
     @media screen and (max-width: 768px) {
-      .services-flex .one-third, .services-flex .one-forth {
-        width: 100%;
-        display: block; } }
+      .services-flex .one-forth .one-third, .services-flex .one-forth .one-forth {
+        height: 400px; } }
+.services-flex .one-third, .services-flex .one-forth {
+  display: inline-block; }
+  @media screen and (max-width: 768px) {
+    .services-flex .one-third, .services-flex .one-forth {
+      width: 100%;
+      display: block; } }
 
 .services {
   margin-bottom: 4em; }
