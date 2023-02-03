@@ -109,6 +109,17 @@ h1, h2, h3, h4, h5, h6 {
     #colorlib-page {
       padding-top: 5em; } }
 
+
+.row + .row {
+  margin-top: 5em;
+}
+
+@media screen and (max-width: 768px) {
+  .spacebetweenphone {
+    margin-top: 5em;
+  }
+}
+
 #colorlib-main-nav {
   position: absolute;
   top: 0;
@@ -679,7 +690,7 @@ header {
 
 .services-flex .one-third {
   width: 45%;
-  padding: 3em 2em 3em 0;
+  padding: 0 2em 3em 0;
 }
 
 .services-flex .one-forth {
@@ -696,8 +707,7 @@ header {
       width: 100%;
       display: block; } }
 
-.services {
-  margin-bottom: 4em; }
+
   .services h3 {
     font-family: "Karla", Arial, sans-serif;
     font-size: 16px;
