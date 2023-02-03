@@ -109,15 +109,8 @@ h1, h2, h3, h4, h5, h6 {
     #colorlib-page {
       padding-top: 5em; } }
 
-
-.row + .row {
-  margin-top: 5em;
-}
-
-@media screen and (max-width: 768px) {
-  .spacebetweenphone {
-    margin-top: 5em;
-  }
+.portfolio .row:not(.nomargintop) .services {
+  padding: 5em 0 3em;
 }
 
 #colorlib-main-nav {
@@ -1338,6 +1331,6 @@ input[type="text"] {
 .js .animate-box {
   opacity: 0; }
 
-.portfolio img {
+img {
   max-width: 100%;
 }
