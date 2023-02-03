@@ -109,12 +109,6 @@ h1, h2, h3, h4, h5, h6 {
     #colorlib-page {
       padding-top: 5em; } }
 
-/*
-.portfolio .row + .row:not(.nomargintop) {
-  margin-top: 3em;
-}
-*/
-
 .portfolio .row:not(.nomargintop) .services {
   padding: 5em 0 3em;
 }
