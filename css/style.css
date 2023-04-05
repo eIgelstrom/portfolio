@@ -37,12 +37,21 @@ a {
   color: #CA82F8;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
-  transition: 0.5s; }
-  a:hover {
-    text-decoration: underline;
-    color: #CA82F8; }
-  a:focus, a:active {
-    outline: none; }
+  transition: 0.5s;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #CA82F8;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+.icon-linkedin {
+  color: gray;
+}
 
 p, span {
   margin-bottom: 1.5em;
@@ -1018,6 +1027,12 @@ header {
     .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
       background: #CA82F8;
       color: #fff; }
+
+.btn-primary.viewMyPortfolio:hover {
+  color: #CA82F8 !important;
+  background: #ffffff !important;
+  border-color: gray !important;
+}
 
 .btn-success {
   background: #5cb85c;
